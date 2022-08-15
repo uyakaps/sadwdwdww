@@ -11,7 +11,11 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/style.css">
 
@@ -47,6 +51,7 @@
 	<a href="#" class="btn btn-info" role="button">Tentang page</a>
 	<a href="#" class="btn btn-info" role="button">kontribusi</a>
 	<a href="#" class="btn btn-info" role="button">Pantner</a>
+	<a href="#" class="btn btn-info" role="button">Pantner</a>
     <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
   </form>
 </div>
@@ -60,10 +65,9 @@ function closeForm() {
   document.getElementById("myForm").style.display = "none";
 }
 </script>
-	  </a>
+	
+	 </div>
 	 
-
-</section>
         <section id="home">
             <div class="kolom">
                 
@@ -75,16 +79,16 @@ function closeForm() {
             </div>
             </div>
         </section>
- </div>
+
 	</div>
-	</body>
+	
 	
 		
-	<h1>Portal</h1><br>
+	<h1>Time Line </h1><br>
 <div class="container9">
     <div id="carousel">
-        <figure><img src="https://i.imgur.com/YCkeccD.jpg"></figure>
-        <figure><img src=" https://i.imgur.com/RcZr6TR.jpg"></figure>
+		<figure><img src="https://i.imgur.com/YCkeccD.jpg"></figure>
+        <figure><div style="width:120%;height:50%;padding-bottom:85.5%;position:relative;"><img src="https://img.beritasatu.com/cache/investor/798x449-2/1612417529.png" width="1000%" height="1000%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen>></figure>
         <figure><img src="https://i.imgur.com/DjwL2R8.jpg"></figure>
         <figure><img src="https://i.imgur.com/ZCeK0MQ.jpg"></figure>
         <figure><img src="https://i.imgur.com/YCkeccD.jpg"></figure>
@@ -92,15 +96,14 @@ function closeForm() {
         <figure><img src="https://i.imgur.com/ZCeK0MQ.jpg"></figure>
         <figure><img src="https://i.imgur.com/DjwL2R8.jpg"></figure>
         <figure><img src="https://i.imgur.com/ZCeK0MQ.jpg"></figure>
-    </div>
-</div>
+   
 	
 	
 	
 			 
 	
 	</div>  
-
+	
 	<script src="js/jquery.min.js"></script>
   <script src="js/popper.js"></script>
   <script src="js/bootstrap.min.js"></script>
@@ -343,14 +346,14 @@ menu ul li a:hover {
 
 html,
 body {
-    min-height: 100%
+	height: 100%;
+   
+	background-image: url(backjw.gif);
+    
+	
+   
 }
 
-body {
-	background-image: url(backjw.gif);
-    background-color: #ff002b
-	
-}
 
 h1 {
     display: table;
@@ -448,6 +451,147 @@ img:hover {
     to {
         transform: rotateY(360deg)
     }
+}
+body{
+
+background-color: #15294c;
+}
+
+
+.card{
+
+background: #101e41;
+border-radius: 5px;
+box-shadow: 5px 6px 6px 2px #101e41;
+}
+
+.border-bottom {
+border-bottom: 1px solid #9e9e9e29!important;
+}
+
+
+.border-right {
+border-right: 1px solid #9e9e9e29!important;
+}
+
+
+.mr-46{
+
+	margin-right: 44px;
+}
+
+
+a{
+
+text-decoration: none;
+color: #fff;
+}
+
+
+.item-list li{
+
+list-style: none;
+padding: 5px;
+}
+
+
+
+.dots {
+height: 50px;
+width: 50px;
+background-color: #fff;
+color: red;
+line-height: 37px;
+padding: 10px;
+border-radius: 50%;
+display: inline-block;
+
+}
+
+.dots i{
+
+	font-size: 25px;
+margin-left: 5px;
+}
+
+
+.text-content{
+font-size: 30px;
+color: #fff;
+font-weight: 500;
+}
+
+
+
+.social-icons{
+
+display: inline-flex;
+}
+
+
+.social-icons li{
+
+padding: 10px;
+list-style: none;
+}
+
+
+
+
+
+
+
+.search {
+ /*margin-bottom: auto;
+margin-top: auto;*/
+height: 53px;
+border:1px solid #eee;
+background-color: #101e41;
+border-radius: 40px;
+padding: 2px;
+}
+
+.search_input {
+ color: white;
+ border: 0;
+ outline: 0;
+ background: none;
+ width: 0;
+
+ margin-top: 2px;
+ caret-color: transparent;
+ line-height: 40px;
+ transition: width 0.4s linear
+}
+
+.search .search_input {
+ padding: 0 10px;
+ width: 100%;
+ caret-color: red;
+ transition: width 0.4s linear
+}
+
+.search:hover>.search_icon {
+ background: red;
+ color: #fff
+}
+
+.search_icon {
+height: 46px;
+width: 46px;
+margin-right: 2px;
+float: right;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 100%;
+color: white;
+padding: 20px;
+background-color: black;
+}
+
+a:link {
+ text-decoration: none
 }
 		</style>
 	
